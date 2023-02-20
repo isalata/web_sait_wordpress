@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+    font-family: "Roboto Thin";
+    width: 100%;
+    line-height:1.5;
+    left: 0px;
+    font-weight: normal;
+    margin-top:0px;
+    margin-bottom:2px;
+    text-align: center;
+}
+.contant_box_start1_contacts{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_text_contacts {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

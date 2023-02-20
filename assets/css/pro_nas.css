@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+*{
+    padding: 0;
+}
+h1{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+
+}
+h2{
+    font-size: 18px;
+    font-family: "Roboto Thin";
+    width: 100%;
+    line-height:1.5;
+    left: 0px;
+    font-weight: normal;
+    margin-top:0px;
+    margin-bottom:2px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.contant_box_start1_about{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 600px;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_box_start2_about{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 600px;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_box_end_about{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 600px;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_image_image1_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Misha.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_image_image2_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Alla.jpg");
+    background-position-x: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_image_image3_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Maks.jpg");
+    background-position-x: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_image_image4_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Lukmanov.jpg");
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_text_about{
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    width:40%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*      HOVER      */
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 600px) {
+    .contant_box_start1_about{
+        margin-top: 0px;
+
+    }
+    .contant_box_end_about{
+
+    }
+    .contant_image_image1_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_image_image2_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_image_image3_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_image_image4_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_text_about {
+        height: 50%;
+        width: 80%;
+    }
+    .contant_box_start1_about{
+        height: 950px;
+    }
+    .contant_box_start2_about{
+        height: 950px;
+    }
+}

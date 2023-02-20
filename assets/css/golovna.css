@@ -1,0 +1,366 @@
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+*{
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/*      contant      */
+.contant{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 50px;
+}
+.contant_contant{
+    flex-wrap: wrap;
+    display: flex;
+    width: 1100px;
+    height: 750px;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+    z-index: 5;
+}
+.contant_image{
+    background: url("../image/Kont.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 70%;
+    border-top-left-radius: 25px;
+}
+.contant_contant_contant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+}
+.logo_contant{
+    margin-top: 10px;
+    width: 330px;
+    height: 220px;
+    background: url("../image/WEHELP.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Glavna_contant_text{
+    width: 80%;
+    height: 55%;
+}
+.Text_big{
+    text-align: center;
+    font-size: 20px;
+    color:#2d805D;
+    font-family: "Roboto";
+}
+.Glavna_contant_text{
+margin-top: auto;
+}
+.Text{
+    text-align: left;
+    font-size: 16px;
+    line-height:1.5;
+    font-family: "Roboto Thin";
+    margin-top: 28px;
+}
+.pod_content{
+    display: flex;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 20%;
+    line-height:1.5;
+}
+.textone{
+    line-height:1.5;
+    font-family: "Roboto Thin";
+}
+/*      HOVER      */
+@media screen and (max-width: 1000px){
+    .contant{
+        display: flex;
+        width: 80%;
+        height:auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 50px;
+    }
+    .contant_contant{
+        background-size: cover;
+        width: 100%;
+        height: 100%
+    }
+    .contant_image{
+        display: flex;
+        width: 1300px;
+        height: 900px;
+        border-top-right-radius: 25px;
+        background-repeat: no-repeat;
+        background-position: -40px 0px;
+        background-size: cover;
+    }
+    .contant_contant_contant{
+        display: flex;
+        margin-top: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .logo_contant{
+        margin-top: 20px;
+        align-items: center;
+    }
+    .Glavna_contant_text{
+        margin-top:10px;
+        width: 90%;
+    }
+    .Text{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width: 600px) {
+}
+/*Про фонд*/
+h1{
+    font-size: 20px;
+    line-height:2;
+    font-family: "Roboto Light";
+    align-items: center;
+}
+h2{
+    font-size: 18px;
+    font-family: "Roboto Thin";
+    width: 100%;
+    line-height:1.5;
+    left: 0px;
+    font-weight: normal;
+    margin-top:0px;
+    margin-bottom:2px;
+}
+/*      contant      */
+.contant_box_start_fund{
+    z-index: 1;
+    margin-top: -13px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_box_end_fund{
+    z-index: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_box_fund{
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_fund{
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+.contant_one_fund{
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+.contant_two_fund{
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 1000px) {
+    .contant_box_start_fund {
+        z-index: 1;
+        margin-top: -13px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 60%;
+        background-color: #f4f5fe;
+        border-radius: 25px;
+    }
+}
+/*pro nas*/
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.contant_box_start1_about{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 600px;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_box_start2_about{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 600px;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_box_end_about{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 600px;
+    background-color: #f4f5fe;
+    border-radius: 25px;
+}
+.contant_image_image1_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Misha.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_image_image2_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Alla.jpg");
+    background-position-x: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_image_image3_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Maks.jpg");
+    background-position-x: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_image_image4_about{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../image/Lukmanov.jpg");
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.contant_text_about{
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    width:40%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*      HOVER      */
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 600px) {
+    .contant_box_start1_about{
+        margin-top: 0px;
+
+    }
+    .contant_box_end_about{
+
+    }
+    .contant_image_image1_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_image_image2_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_image_image3_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_image_image4_about {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    .contant_text_about {
+        height: 50%;
+        width: 80%;
+    }
+    .contant_box_start1_about{
+        height: 950px;
+    }
+    .contant_box_start2_about{
+        height: 950px;
+    }
+}
